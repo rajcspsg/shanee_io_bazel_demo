@@ -1,0 +1,1 @@
+This is the demo setup of bazel c++ build with VS code. Thanks for the author of this link https://shanee.io/blog/2019/05/28/bazel-with-visual-studio-code/.

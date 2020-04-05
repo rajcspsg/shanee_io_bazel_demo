@@ -1,0 +1,28 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Example",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "args": [],
+            "stopAtEntry": false,
+            "preLaunchTask": "Bazel Build Example (Debug)",
+            "cwd": "${workspaceFolder}/bazel-out/k8-dbg/bin/example.runfiles/__main__/",
+            "program": "${workspaceFolder}/bazel-out/k8-dbg/bin/example",
+            "externalConsole": false,
+            "linux": {
+              "type": "cppdbg",
+              "MIMode": "gdb",
+              "program": "${workspaceFolder}/bazel-out/k8-dbg/bin/example",
+              "cwd": "${workspaceFolder}/bazel-out/k8-dbg/bin/example.runfiles/__main__/",
+              "sourceFileMap": {
+                "/proc/self/cwd/": "${workspaceFolder}",
+              }
+            },
+          }
+    ]
+}
